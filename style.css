@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
- {
+* {
   padding: 0;
   margin: 0; 
   box-sizing: border-box; 
@@ -60,7 +60,6 @@ li {
     padding-left: 16px;
 }
 
-
 .row {
     width: 100%;
     max-width: 1300px;
@@ -69,17 +68,22 @@ li {
     justify-content: center;
 }
 
+#about,
+ #discord,
+ #contact {
+    padding: 48px 0;
+}
+
 /*
 
 ABOUT
 
 */
 
- #about {
-    padding: 48px 0;
+#about {
     background-color: #f8ffdc;
 }
-
+ 
 h2 {
     font-size: 60px;
     align-items: center;
@@ -121,3 +125,6 @@ DISCORD
 
 */
 
+#discord {
+background-color: #cefeff
+}
