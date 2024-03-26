@@ -86,7 +86,7 @@ ABOUT
  
 h2 {
     font-size: 60px;
-    align-items: center;
+    text-align: center;
     margin-bottom: 24px;
 }
 
@@ -128,3 +128,4 @@ DISCORD
 #discord {
 background-color: #cefeff
 }
+
